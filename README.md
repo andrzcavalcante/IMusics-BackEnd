@@ -4,8 +4,9 @@
 
 Neste repositório está a estrutura do BackEnd da aplicação *IMusics*. A proposta da aplicação é adicionar, armazenar e reproduzir suas músicas preferidas
 sempre presando os pilares da segurança da informação: confidencialidade, integridade e disponibilidade.
+As principais tecnologias usadas foram: TypeScript, Nest.js e prisma.
 
-## Passos para rodar a aplicaçâo
+## Passos para rodar a aplicação
 - Crie o clone do repositório na sua máquina.
 -  Faça a instalação de todas as dependências:
     -  **npm install** ou **yarn install**.
