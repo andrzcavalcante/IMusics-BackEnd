@@ -8,8 +8,8 @@ sempre presando os pilares da segurança da informação: confidencialidade, int
 ## Passos para rodar a aplicaçâo
 - Crie o clone do repositório na sua máquina.
 -  Faça a instalação de todas as dependências:
-  -  **npm install** ou **yarn install**.
-  - Configure o arquivo **.env** use o **env.exemplo** como base.
+    -  **npm install** ou **yarn install**.
+    - Configure o arquivo **.env** use o **env.exemplo** como base.
 - Após estes passos acesse o Readme da pasta */back*, onde estará os próximos passos para rodar a aplicação na sua máquina.
 
      
