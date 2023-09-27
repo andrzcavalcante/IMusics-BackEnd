@@ -31,7 +31,14 @@ export class MusicsPrismaRepository implements MusicsRepository {
     return newMusic;
   }
   async findAll(): Promise<Music[]> {
-    const musics = await this.prisma.music.findMany();
+    const musics = await this.prisma.music.findMany({
+      where: {
+        NOT:{
+          cover_image: null,
+          music_url: null
+        }
+      }
+    });
     return musics;
   }
   async findOne(id: string): Promise<Music> {
